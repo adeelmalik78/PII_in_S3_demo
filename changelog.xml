@@ -11,7 +11,7 @@
     http://www.liquibase.org/xml/ns/pro 
     http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd" >
 
-  <include file="sql/100_ddl/01_customers.sql" />
+  <include file="01_customers.sql" />
 
   <changeSet author="amalik" id="Customers_data">
       <loadData file="customer.csv"

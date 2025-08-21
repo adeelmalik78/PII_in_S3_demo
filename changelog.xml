@@ -14,7 +14,7 @@
   <include file="sql/100_ddl/01_customers.sql" />
 
   <changeSet author="amalik" id="Customers_data">
-      <loadData file="s3://amalik-s3-extension-demo/customer_data/customer.csv"
+      <loadData file="customer.csv"
                 schemaName="public"
                 tableName="customer_data">
       </loadData>
